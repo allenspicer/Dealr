@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82565FEA399AC370E8336CD6 /* Pods_Dealr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FF5A133829AF65D0DFB3A3 /* Pods_Dealr.framework */; };
+		9F1745831FC7B70E00F4FD23 /* dealerships.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9F1745821FC7B70E00F4FD23 /* dealerships.csv */; };
+		9F1745851FCC502A00F4FD23 /* Screen Shot 2017-11-27 at 8.43.13 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1745841FCC502900F4FD23 /* Screen Shot 2017-11-27 at 8.43.13 AM.png */; };
+		9F1ABCBC1FAA9C6C00EFA8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FE4432C1F9EC6CB00A9429F /* Assets.xcassets */; };
+		9F1ABCBD1FAA9C7300EFA8F2 /* legs_car_relaxed_home_50_percent.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCFFDC11FAA6C5B00C2AB0C /* legs_car_relaxed_home_50_percent.jpeg */; };
+		9F1ABCBF1FAA9C8300EFA8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FE443261F9EC6CB00A9429F /* Main.storyboard */; };
+		9F2E4B661FAA763E000F4A56 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2E4B651FAA763E000F4A56 /* LaunchVC.swift */; };
+		9F3050421FAFC5B30045F678 /* Dealerships.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3050411FAFC5B30045F678 /* Dealerships.swift */; };
+		9F4AE4C01FBF7858000A48E9 /* dog_car_launch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9F4AE4BF1FBF7857000A48E9 /* dog_car_launch.mp4 */; };
+		9F9F30071FB51BAA005F3401 /* DealershipList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F30061FB51BAA005F3401 /* DealershipList.swift */; };
+		9FCFFD941FAA5FD000C2AB0C /* NewCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFFD931FAA5FD000C2AB0C /* NewCarVC.swift */; };
+		9FCFFD961FAA5FE800C2AB0C /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFFD951FAA5FE800C2AB0C /* HomeVC.swift */; };
+		9FCFFD981FAA600F00C2AB0C /* DealershipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFFD971FAA600F00C2AB0C /* DealershipsVC.swift */; };
+		9FCFFDBD1FAA62D400C2AB0C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFFDBC1FAA62D400C2AB0C /* TableViewCell.swift */; };
+		9FD334951FC0AACC008E5AC9 /* makesmodels.csv in Resources */ = {isa = PBXBuildFile; fileRef = 9FD334941FC0AACB008E5AC9 /* makesmodels.csv */; };
+		9FE443231F9EC6CB00A9429F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE443221F9EC6CB00A9429F /* AppDelegate.swift */; };
+		9FE443251F9EC6CB00A9429F /* ReviewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE443241F9EC6CB00A9429F /* ReviewsVC.swift */; };
+		9FE4432B1F9EC6CB00A9429F /* Dealr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FE443291F9EC6CB00A9429F /* Dealr.xcdatamodeld */; };
+		9FFAE37E1FAAAFD2005AFEC0 /* NewCarTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFAE37D1FAAAFD2005AFEC0 /* NewCarTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		205FC86A5864291FB26C1F00 /* Pods-Dealr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dealr/Pods-Dealr.debug.xcconfig"; sourceTree = "<group>"; };
+		50FF5A133829AF65D0DFB3A3 /* Pods_Dealr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dealr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8429E9EB22B49047BE125545 /* Pods-Dealr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dealr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dealr/Pods-Dealr.release.xcconfig"; sourceTree = "<group>"; };
+		9F1745821FC7B70E00F4FD23 /* dealerships.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dealerships.csv; sourceTree = "<group>"; };
+		9F1745841FCC502900F4FD23 /* Screen Shot 2017-11-27 at 8.43.13 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-11-27 at 8.43.13 AM.png"; sourceTree = "<group>"; };
+		9F2E4B651FAA763E000F4A56 /* LaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
+		9F3050411FAFC5B30045F678 /* Dealerships.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dealerships.swift; sourceTree = "<group>"; };
+		9F4AE4BF1FBF7857000A48E9 /* dog_car_launch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog_car_launch.mp4; sourceTree = "<group>"; };
+		9F9F30061FB51BAA005F3401 /* DealershipList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipList.swift; sourceTree = "<group>"; };
+		9FCFFD931FAA5FD000C2AB0C /* NewCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarVC.swift; sourceTree = "<group>"; };
+		9FCFFD951FAA5FE800C2AB0C /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9FCFFD971FAA600F00C2AB0C /* DealershipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealershipsVC.swift; sourceTree = "<group>"; };
+		9FCFFDBC1FAA62D400C2AB0C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9FCFFDBE1FAA6A4000C2AB0C /* legs_car_relaxed_home.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legs_car_relaxed_home.jpeg; sourceTree = "<group>"; };
+		9FCFFDC11FAA6C5B00C2AB0C /* legs_car_relaxed_home_50_percent.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = legs_car_relaxed_home_50_percent.jpeg; sourceTree = "<group>"; };
+		9FD334941FC0AACB008E5AC9 /* makesmodels.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = makesmodels.csv; sourceTree = "<group>"; };
+		9FE4431F1F9EC6CB00A9429F /* Dealr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dealr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE443221F9EC6CB00A9429F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FE443241F9EC6CB00A9429F /* ReviewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsVC.swift; sourceTree = "<group>"; };
+		9FE443271F9EC6CB00A9429F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FE4432A1F9EC6CB00A9429F /* Dealr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Dealr.xcdatamodel; sourceTree = "<group>"; };
+		9FE4432C1F9EC6CB00A9429F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FE443311F9EC6CB00A9429F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Dealr/Info.plist; sourceTree = SOURCE_ROOT; };
+		9FFAE37D1FAAAFD2005AFEC0 /* NewCarTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarTabBarController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FE4431C1F9EC6CB00A9429F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82565FEA399AC370E8336CD6 /* Pods_Dealr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6136ED40A8908F4485ADF736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				205FC86A5864291FB26C1F00 /* Pods-Dealr.debug.xcconfig */,
+				8429E9EB22B49047BE125545 /* Pods-Dealr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F3050431FAFC6310045F678 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F3050411FAFC5B30045F678 /* Dealerships.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9FCFFDC01FAA6A4600C2AB0C /* Images & Videos */ = {
+			isa = PBXGroup;
+			children = (
+				9F4AE4BF1FBF7857000A48E9 /* dog_car_launch.mp4 */,
+				9FCFFDC11FAA6C5B00C2AB0C /* legs_car_relaxed_home_50_percent.jpeg */,
+				9FCFFDBE1FAA6A4000C2AB0C /* legs_car_relaxed_home.jpeg */,
+			);
+			path = "Images & Videos";
+			sourceTree = "<group>";
+		};
+		9FD334931FC08B90008E5AC9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9FD334941FC0AACB008E5AC9 /* makesmodels.csv */,
+				9F1745821FC7B70E00F4FD23 /* dealerships.csv */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9FE443161F9EC6CA00A9429F = {
+			isa = PBXGroup;
+			children = (
+				9FE443211F9EC6CB00A9429F /* Dealr */,
+				9FE443201F9EC6CB00A9429F /* Products */,
+				6136ED40A8908F4485ADF736 /* Pods */,
+				CEA80D838A5F1830A874B891 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9FE443201F9EC6CB00A9429F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FE4431F1F9EC6CB00A9429F /* Dealr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FE443211F9EC6CB00A9429F /* Dealr */ = {
+			isa = PBXGroup;
+			children = (
+				9FE443221F9EC6CB00A9429F /* AppDelegate.swift */,
+				9F2E4B651FAA763E000F4A56 /* LaunchVC.swift */,
+				9FCFFD951FAA5FE800C2AB0C /* HomeVC.swift */,
+				9FCFFD931FAA5FD000C2AB0C /* NewCarVC.swift */,
+				9FCFFD971FAA600F00C2AB0C /* DealershipsVC.swift */,
+				9FE443241F9EC6CB00A9429F /* ReviewsVC.swift */,
+				9FFAE37D1FAAAFD2005AFEC0 /* NewCarTabBarController.swift */,
+				9F9F30061FB51BAA005F3401 /* DealershipList.swift */,
+				9FD334931FC08B90008E5AC9 /* Data */,
+				9F3050431FAFC6310045F678 /* Model */,
+				9FCFFDC01FAA6A4600C2AB0C /* Images & Videos */,
+				9FCFFDBC1FAA62D400C2AB0C /* TableViewCell.swift */,
+				9FE443371F9EC78B00A9429F /* Storyboards */,
+				9FE4432C1F9EC6CB00A9429F /* Assets.xcassets */,
+				9FE443311F9EC6CB00A9429F /* Info.plist */,
+				9FE443291F9EC6CB00A9429F /* Dealr.xcdatamodeld */,
+			);
+			path = Dealr;
+			sourceTree = "<group>";
+		};
+		9FE443371F9EC78B00A9429F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9FE443261F9EC6CB00A9429F /* Main.storyboard */,
+				9F1745841FCC502900F4FD23 /* Screen Shot 2017-11-27 at 8.43.13 AM.png */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CEA80D838A5F1830A874B891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50FF5A133829AF65D0DFB3A3 /* Pods_Dealr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FE4431E1F9EC6CB00A9429F /* Dealr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FE443341F9EC6CB00A9429F /* Build configuration list for PBXNativeTarget "Dealr" */;
+			buildPhases = (
+				E28B36605D2415C8BEA15D04 /* [CP] Check Pods Manifest.lock */,
+				9FE4431B1F9EC6CB00A9429F /* Sources */,
+				9FE4431C1F9EC6CB00A9429F /* Frameworks */,
+				9FE4431D1F9EC6CB00A9429F /* Resources */,
+				1A9D14023608AF9BD169C170 /* [CP] Embed Pods Frameworks */,
+				19C2424A37DC9F9E7FE16CD1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dealr;
+			productName = Dealr;
+			productReference = 9FE4431F1F9EC6CB00A9429F /* Dealr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FE443171F9EC6CA00A9429F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Allen Spicer";
+				TargetAttributes = {
+					9FE4431E1F9EC6CB00A9429F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9FE4431A1F9EC6CA00A9429F /* Build configuration list for PBXProject "Dealr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FE443161F9EC6CA00A9429F;
+			productRefGroup = 9FE443201F9EC6CB00A9429F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FE4431E1F9EC6CB00A9429F /* Dealr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FE4431D1F9EC6CB00A9429F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1ABCBF1FAA9C8300EFA8F2 /* Main.storyboard in Resources */,
+				9F1745851FCC502A00F4FD23 /* Screen Shot 2017-11-27 at 8.43.13 AM.png in Resources */,
+				9F1ABCBD1FAA9C7300EFA8F2 /* legs_car_relaxed_home_50_percent.jpeg in Resources */,
+				9FD334951FC0AACC008E5AC9 /* makesmodels.csv in Resources */,
+				9F4AE4C01FBF7858000A48E9 /* dog_car_launch.mp4 in Resources */,
+				9F1ABCBC1FAA9C6C00EFA8F2 /* Assets.xcassets in Resources */,
+				9F1745831FC7B70E00F4FD23 /* dealerships.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19C2424A37DC9F9E7FE16CD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dealr/Pods-Dealr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A9D14023608AF9BD169C170 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dealr/Pods-Dealr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E28B36605D2415C8BEA15D04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FE4431B1F9EC6CB00A9429F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3050421FAFC5B30045F678 /* Dealerships.swift in Sources */,
+				9FE4432B1F9EC6CB00A9429F /* Dealr.xcdatamodeld in Sources */,
+				9F9F30071FB51BAA005F3401 /* DealershipList.swift in Sources */,
+				9FCFFD981FAA600F00C2AB0C /* DealershipsVC.swift in Sources */,
+				9FCFFD961FAA5FE800C2AB0C /* HomeVC.swift in Sources */,
+				9FE443251F9EC6CB00A9429F /* ReviewsVC.swift in Sources */,
+				9FFAE37E1FAAAFD2005AFEC0 /* NewCarTabBarController.swift in Sources */,
+				9FE443231F9EC6CB00A9429F /* AppDelegate.swift in Sources */,
+				9F2E4B661FAA763E000F4A56 /* LaunchVC.swift in Sources */,
+				9FCFFDBD1FAA62D400C2AB0C /* TableViewCell.swift in Sources */,
+				9FCFFD941FAA5FD000C2AB0C /* NewCarVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9FE443261F9EC6CB00A9429F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FE443271F9EC6CB00A9429F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FE443321F9EC6CB00A9429F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FE443331F9EC6CB00A9429F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FE443351F9EC6CB00A9429F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205FC86A5864291FB26C1F00 /* Pods-Dealr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VV96EYWM8;
+				INFOPLIST_FILE = Dealr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dealr.Dealr.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FE443361F9EC6CB00A9429F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8429E9EB22B49047BE125545 /* Pods-Dealr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4VV96EYWM8;
+				INFOPLIST_FILE = Dealr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dealr.Dealr.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FE4431A1F9EC6CA00A9429F /* Build configuration list for PBXProject "Dealr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE443321F9EC6CB00A9429F /* Debug */,
+				9FE443331F9EC6CB00A9429F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FE443341F9EC6CB00A9429F /* Build configuration list for PBXNativeTarget "Dealr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FE443351F9EC6CB00A9429F /* Debug */,
+				9FE443361F9EC6CB00A9429F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9FE443291F9EC6CB00A9429F /* Dealr.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9FE4432A1F9EC6CB00A9429F /* Dealr.xcdatamodel */,
+			);
+			currentVersion = 9FE4432A1F9EC6CB00A9429F /* Dealr.xcdatamodel */;
+			path = Dealr.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9FE443171F9EC6CA00A9429F /* Project object */;
+}
